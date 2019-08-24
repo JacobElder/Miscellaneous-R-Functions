@@ -1,5 +1,5 @@
 # This function is for comparing multiple MLM model fit indices at once. It will accept
-# your model you want to compare, your model name that will go in the table (enter in
+# your lme4 model you want to compare, your model name that will go in the table (enter in
 # quotations, such as "Model 1"), and the dataframe. If the dataframe parameter is left
 # empty, the function will create a new dataframe and your model fit indices will
 # be appended as the first row. You must have REML = FALSE for lmer for model fit
