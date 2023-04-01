@@ -7,6 +7,7 @@ pTest <- function(Z){
 
 zTest <- function(b1,b2,se1,se2){
   Z<-(b1 - b2)/sqrt( ((se1)^2) + ((se2)^2) )
+  p <- pTest(Z)
   return(list("Z"=Z,"p"=p))
 }
 
